@@ -1,14 +1,21 @@
-import './index.css'
-import './App.css'
+import AboutPage from "./pages/AboutPage"
+import ExperiencePage from "./pages/ExperiencePage"
+import HomePage from "./pages/HomePage"
+import Portfolio from "./pages/Portfolio"
+
 
 function App() {
 
 
   return (
     <>
-    <h1 className='text-red-600'>Hello World</h1>
-    
+   <HomePage/>
+   <ExperiencePage/>
+   <AboutPage/>
+   <Portfolio/>
     </>
+
+    
   )
 }
 

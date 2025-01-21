@@ -29,6 +29,12 @@ const Card1 = () => {
       <div className="inline-block">
         <button className="group inline-flex p-4 items-center text-sm relative">
         <span className="relative">
+        <a
+              href="https://drive.google.com/drive/folders/1PsZWkFfh9xiNcRzI1lPYzrgBpUNu0zdZ" // Replace this with the external URL
+              target="_blank"
+              rel="noopener noreferrer"
+              
+            >
             View
             <svg 
               className="w-5 h-5 ml-1 inline transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" 
@@ -44,7 +50,9 @@ const Card1 = () => {
               />
             </svg>
             <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-black"></span>
+            </a>
           </span>
+      
         </button>
       </div>
     </div>

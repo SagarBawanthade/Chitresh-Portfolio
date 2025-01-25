@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Card6 = () => {
@@ -28,6 +29,7 @@ const Card6 = () => {
            <div className="mt-1">
         <div className="inline-block">
           <button className="group inline-flex p-4 items-center text-sm relative">
+          <Link to="/awards">
           <span className="relative">
               View
               <svg 
@@ -44,7 +46,7 @@ const Card6 = () => {
                 />
               </svg>
               <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-black"></span>
-            </span>
+            </span></Link>
           </button>
         </div>
       </div>

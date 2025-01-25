@@ -8,3 +8,9 @@
 body {
     font-family: 'Roboto', sans-serif;
   }
+
+
+  /* Add this to your CSS */
+.clip-shadow {
+  clip-path: polygon(8px 0, 100% 0, 100% 100%, 0 100%, 0 8px);
+}
